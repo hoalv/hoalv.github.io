@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>https://hoalv.github.io/tags/algorithm/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hoalv.github.io/tags/data/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -54,6 +59,11 @@
   
   <url>
     <loc>https://hoalv.github.io/post/hien-thuc-ve-xu-mong-mo/</loc>
+    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hoalv.github.io/post/hyper-log-log/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url>
   
