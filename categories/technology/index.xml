@@ -55,7 +55,7 @@ Tại sao sử dụng trung bình điều hoà? Bởi vì nó rất tốt trong 
 4 / (1/2 + 1/4 + 1/6 + 1/100) = 4.32&lt;br&gt;
 Hệ số ngoại lệ lớn 100 ở đây ít ảnh hưởng đến kết quả vì chúng ta chỉ sử dụng nghịch đảo của nó. Do đó, chúng ta có một phương pháp tính trung bình có thể ít bị ảnh hưởng bởi các giá trị ngoại lệ lớn.&lt;br&gt;
 Bằng cách sử dụng trung bình điều hoà thay vì trung bình cộng được sử dụng trong LogLog và chỉ sử dụng 70% giá trị nhỏ nhất trong SuperLogLog, HyperLogLog đạt được sai số chuẩn là 1,04 / √m, thấp nhất trong số tất cả các phương pháp.&lt;/p&gt;
-&lt;p&gt;Bây giờ chúng ta đã hiểu cách hoạt động của HyperLogLog. Thuật toán này có thể ước tính số lượng giá trị duy nhất trong một tập dữ liệu rất lớn bằng cách sử dụng ít bộ nhớ và thời gian. Chu ý rằng trong bài báo gốc, các tác giả không thực sự đếm chuỗi số 0 đứng đầu dài nhất, ở đây chúng ta đơn giản hoá để giúp dễ dàng nắm bắt ý tưởng của thuật toán này. Các bạn muốn biết rõ hơn nên tìm đọc trực tiếp các bài báo gốc.&lt;/p&gt;
+&lt;p&gt;Bây giờ chúng ta đã hiểu cách hoạt động của HyperLogLog. Thuật toán này có thể ước tính số lượng giá trị duy nhất trong một tập dữ liệu rất lớn bằng cách sử dụng ít bộ nhớ và thời gian. Chú ý rằng trong bài báo gốc, các tác giả không thực sự đếm chuỗi số 0 đứng đầu dài nhất, ở đây chúng ta đơn giản hoá để giúp dễ dàng nắm bắt ý tưởng của thuật toán này. Các bạn muốn biết rõ hơn nên tìm đọc trực tiếp các bài báo gốc.&lt;/p&gt;
 &lt;p&gt;Vậy là chúng ta vừa cùng nhau quay trở về tuổi thơ với bài toán tập đếm. Đây thực sự là một thuật toán rất thú vị khi tôi đọc được, nó đã đánh bại sự lười biếng của tôi để ngồi dịch/viết ra bài này. Have good day!&lt;/p&gt;
 &lt;p&gt;Tài liệu tham khảo:&lt;/p&gt;
 &lt;ul&gt;
